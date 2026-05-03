@@ -138,7 +138,18 @@ export default function Chat() {
 
   return (
     <div className="flex h-screen items-center justify-center font-sans dark:bg-black">
-      <main className="w-full dark:bg-black h-screen relative">
+      <main className="w-full dark:bg-black h-screen relative overflow-hidden isolate">
+        <div className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center opacity-6">
+          <Image
+            src="/logo.png"
+            alt=""
+            width={900}
+            height={900}
+            aria-hidden="true"
+            className="h-auto w-[70vw] max-w-[900px] select-none object-contain"
+            priority
+          />
+        </div>
         <div className="fixed top-0 left-0 right-0 z-50 bg-linear-to-b from-background via-background/50 to-transparent dark:bg-black overflow-visible pb-16">
           <div className="relative overflow-visible">
             <ChatHeader>
@@ -168,7 +179,7 @@ export default function Chat() {
             </ChatHeader>
           </div>
         </div>
-        <div className="h-screen overflow-y-auto px-5 py-4 w-full pt-[88px] pb-[150px]">
+        <div className="relative z-10 h-screen overflow-y-auto px-5 py-4 w-full pt-[88px] pb-[150px]">
           <div className="flex flex-col items-center justify-end min-h-full">
             {isClient ? (
               <>

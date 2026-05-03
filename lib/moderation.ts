@@ -71,7 +71,9 @@ async function classifyViolenceIntent(text: string): Promise<{
     const militaryKeywords = [
         'army', 'military', 'tactic', 'tactics', 'strategy', 'strategic',
         'warfare', 'doctrine', 'campaign', 'maneuver', 'logistics', 'historical', 'training',
-        'attack', 'ambush','raid','contact','weapon','weapon system','movement to contact','contact'
+        'attack', 'ambush', 'raid', 'contact', 'weapon', 'weapon system', 'movement to contact',
+        'teach me', 'help me understand', 'explain', 'how to', 'how would i', 'what if i', 'historical example',
+        'tell me', 'how do', 'what are', 'why do', 'when did', 'where did', 'who did', 'case study', 'analysis of',
     ];
 
     const maliciousKeywords = [
