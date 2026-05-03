@@ -33,7 +33,9 @@ export const DATE_AND_TIME = getDateAndTime();
 export const AI_NAME = "MS3GPT";
 export const OWNER_NAME = "Maximilian Sweitzer";
 
-export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}.`
+export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}.
+I can help you  navigate MS3 year and have full access to the ARMY302 course materials that
+include the following:\n-ARMY302 Syllabus\n-Tactics Lecture Notes and Powerpoints\n-CST Review Session Materials\n-CST26 Welcome Packet and Policy Memos`
 
 export const CLEAR_CHAT_TEXT = "New";
 
