@@ -35,7 +35,8 @@ export const OWNER_NAME = "Maximilian Sweitzer";
 
 export const WELCOME_MESSAGE = `Hello! I'm ${AI_NAME}, an AI assistant created by ${OWNER_NAME}.
 I can help you  navigate MS3 year and have full access to the ARMY302 course materials that
-include the following:<br>-ARMY302 Syllabus<br>-CST Review Session Materials<br>-CST26 Welcome Packet and Policy Memos`
+include the following:<br><br>-ARMY302 Syllabus<br>-CST Review Session Materials<br>-CST26 Welcome Packet and Policy Memos<br>-Tactics Lesson Notes<br>
+<br>IMPORTANT: When asking about tactics please outline that it is for educational purposes`
 
 export const CLEAR_CHAT_TEXT = "New";
 
