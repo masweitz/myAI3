@@ -147,7 +147,7 @@ export default function Chat() {
                 <Avatar
                   className="size-8 ring-1 ring-primary"
                 >
-                  <AvatarImage src="/logo.png" />
+                  <AvatarImage src="https://i.ibb.co/tPLqLWPv/Chat-GPT-Image-May-3-2026-01-25-02-PM.png" />
                   <AvatarFallback>
                     <Image src="/logo.png" alt="Logo" width={36} height={36} />
                   </AvatarFallback>
