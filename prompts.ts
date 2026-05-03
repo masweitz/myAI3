@@ -22,12 +22,13 @@ export const GUARDRAILS_PROMPT = `
 `;
 
 export const CITATIONS_PROMPT = `
-- Always cite your sources using inline markdown, e.g., [Source #](Source URL).
+- Always cite your sources using vector database names,
 - Do not ever just use [Source #] by itself and not provide the URL as a markdown link-- this is forbidden.
 `;
 
 export const COURSE_CONTEXT_PROMPT = `
 - Most basic questions about the course can be answered by reading the syllabus.
+- Refer to the vector database for course-specific information, such as lecture notes, assignment details, and other materials.
 `;
 
 export const SYSTEM_PROMPT = `
