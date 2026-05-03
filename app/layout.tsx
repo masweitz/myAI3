@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "MyAI3",
-  description: "MyAI3",
+  title: "MS3GPT",
+  description: "MS3GPT",
+  icons: {
+    icon: "https://i.ibb.co/PZMLNY3b/Chat-GPT-Image-May-3-2026-01-22-59-PM.png"
+  },
 };
 
 export default function RootLayout({

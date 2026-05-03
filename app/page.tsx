@@ -139,15 +139,13 @@ export default function Chat() {
   return (
     <div className="flex h-screen items-center justify-center font-sans dark:bg-black">
       <main className="w-full dark:bg-black h-screen relative overflow-hidden isolate">
-        <div className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center opacity-6">
-          <Image
+        <div className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center opacity-[0.06]">
+          <img
             src="https://i.ibb.co/PZMLNY3b/Chat-GPT-Image-May-3-2026-01-22-59-PM.png"
             alt=""
-            width={900}
-            height={900}
             aria-hidden="true"
             className="h-auto w-[70vw] max-w-[900px] select-none object-contain"
-            priority
+            decoding="async"
           />
         </div>
         <div className="fixed top-0 left-0 right-0 z-50 bg-linear-to-b from-background via-background/50 to-transparent dark:bg-black overflow-visible pb-16">
