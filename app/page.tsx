@@ -144,7 +144,7 @@ export default function Chat() {
             src="https://i.ibb.co/PZMLNY3b/Chat-GPT-Image-May-3-2026-01-22-59-PM.png"
             alt=""
             aria-hidden="true"
-            className="h-auto w-[50vw] max-w-[600px] select-none object-contain"
+            className="h-auto w-[50vw] max-w-[550px] select-none object-contain"
             decoding="async"
           />
         </div>
