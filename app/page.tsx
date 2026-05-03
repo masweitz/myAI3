@@ -141,7 +141,7 @@ export default function Chat() {
       <main className="w-full dark:bg-black h-screen relative overflow-hidden isolate">
         <div className="pointer-events-none absolute inset-0 z-0 flex items-center justify-center opacity-6">
           <Image
-            src="/logo.png"
+            src="https://i.ibb.co/PZMLNY3b/Chat-GPT-Image-May-3-2026-01-22-59-PM.png"
             alt=""
             width={900}
             height={900}
@@ -160,7 +160,7 @@ export default function Chat() {
                 >
                   <AvatarImage src="https://i.ibb.co/tPLqLWPv/Chat-GPT-Image-May-3-2026-01-25-02-PM.png" />
                   <AvatarFallback>
-                    <Image src="/logo.png" alt="Logo" width={36} height={36} />
+                    <Image src="https://i.ibb.co/PZMLNY3b/Chat-GPT-Image-May-3-2026-01-22-59-PM.png" alt="Logo" width={36} height={36} />
                   </AvatarFallback>
                 </Avatar>
                 <p className="tracking-tight">Chat with {AI_NAME}</p>
